@@ -189,6 +189,13 @@ div#features {
     margin: 0;
     overflow: hidden;
     background-color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.meal-photo div {
+    width: 25%;
+    overflow: hidden;
 }
 
 .meal-photo img {
@@ -196,9 +203,12 @@ div#features {
     width: 100%;
     height: auto;
     transform: scale(1.15);
+
+    transition: all 0.5s;
+    display: block;
 }
 
 .meal-photo img:hover {
     opacity: 1;
-    transform: scale (1.00);
+    transform: scale(1.00);
 }
