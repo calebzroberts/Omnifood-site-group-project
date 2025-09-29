@@ -135,7 +135,7 @@ header h1 {
     margin: auto;
 }
 
-#foodDelivery #top h2 {
+h2 {
     font-size: 2.5rem;
     text-transform: uppercase;
 }
@@ -211,4 +211,82 @@ div#features {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.00);
+}
+
+
+/*how it works section styling----------------------------*/
+#phoneImage {
+    width: 40%;
+    height:auto;
+
+    margin: 2rem;
+}
+
+.howToStep {
+    display: flex;
+    padding: 1rem;
+}
+
+.howToStep div {
+    padding: 5px;
+    color:#e67e22;
+    border: 2px solid #e67e22;
+    display: inline-block;
+    border-radius: 50%;
+
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    
+    font-size: 150%;
+    margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
+/*current cities styling---------------------------*/
+#cityTiles {
+    display:flex;
+}
+
+#cityTiles div {
+    width: 25%;
+    padding: 1rem;
+    
+    font-weight: 300;
+}
+
+#cityTiles div img {
+    width: 100%;
+    height: auto;
+}
+
+#cityTiles div h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#cityTiles div.cityTileFact {
+    display: flex;
+}
+
+#cityTiles div.icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color:#e67e22;
+    font-size: 120%;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
 }
