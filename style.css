@@ -37,7 +37,7 @@ header h1 {
 }
 
 .row {
-    max-width: 1140;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -123,4 +123,82 @@ header h1 {
 .btn-ghost:hover, .btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}
+
+
+
+/*features section styling----------------------------------*/
+#foodDelivery #top {
+    text-align: center;
+    padding: 4rem 2rem 0 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+#foodDelivery #top h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin:30px auto;
+}
+
+div#features {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+#features div {
+    padding: 1rem;
+}
+
+#features div.icon {
+    padding: 0;
+}
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color:#e67e22;
+    margin-top: 3rem;
+    margin-bottom: 10px;
+    --ionicon-stroke-width: 20px;
+}
+
+#features h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+}
+
+#features p {
+    font-size:  1.1rem;
+    line-height: 1.4;
+}
+
+/*images gallery styling----------------------------*/
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+}
+
+.meal-photo img:hover {
+    opacity: 1;
+    transform: scale (1.00);
 }
