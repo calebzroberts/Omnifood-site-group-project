@@ -329,7 +329,7 @@ div#features {
     vertical-align: middle;
 }
 
-#cityTiles a:link {
+#cityTiles a {
     color:#e67e22;
 }
 
@@ -551,4 +551,52 @@ input[type=submit] {
     font-family: "Lato", Arial, Helvetica, sans-serif;
     font-weight: 300;
     font-size: 20px;
+}
+
+
+
+/*footer styling------------------------------------------------*/
+footer {
+    background-color: #333;
+    padding: 3rem;
+    color: #888;
+    font-size: 0.9rem;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li {
+    margin: 0.5rem 1em;
+}
+
+footer ion-icon {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    font-size: 150%;
+    line-height: 120%;
+    vertical-align: middle;
+}
+
+#footerTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+#copyright {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color:#888;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ddd;
 }
