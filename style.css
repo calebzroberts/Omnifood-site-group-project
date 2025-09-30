@@ -18,6 +18,12 @@ h1, h2 {
     font-weight: 300;
 }
 
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
 /*header styling----------------------------------------------------*/
 
 header {
@@ -135,10 +141,6 @@ header h1 {
     margin: auto;
 }
 
-h2 {
-    font-size: 2.5rem;
-    text-transform: uppercase;
-}
 
 h2:after {
     display: block;
@@ -220,9 +222,6 @@ div#features {
     background-color: #f4f4f4;
 }
 
-#howItWorks h2 {
-    text-align: center;
-}
 
 .phoneAndparagraph {
     display: flex;
@@ -284,9 +283,6 @@ div#features {
     
 }
 
-#ourCities h2 {
-    text-align: center;
-}
 
 #cityTiles {
     display:flex;
@@ -343,7 +339,7 @@ div#features {
 
 
 /*quote section styling--------------------------------------*/
-#signUp {
+#quotes {
     background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/back-customers.jpg');
     background-position: center;
     background-size: cover;
@@ -353,9 +349,6 @@ div#features {
     padding: 5rem 1rem;
 }
 
-#signUp h2 {
-    text-align: center;
-}
 
 #reviewHolder {
     display: flex;
@@ -393,4 +386,56 @@ blockquote:before {
     width: 50px;
     height: auto;
     margin-right: 0.5rem;
+}
+
+
+/*sign up section---------------------------------*/
+#signUp {
+    background-color: #f4f4f4;
+}
+
+#signUpTabs {
+    display: flex;
+    justify-content: center;
+}
+
+.signUpTab {
+    margin: 2rem;
+    padding: 2rem;
+
+}
+
+.premiumSection {
+    padding: 2rem 0 1rem 0;
+    font-weight: 300;
+    
+}
+
+.premiumSection h3 {
+    text-transform: uppercase;
+    font-size: 80%;
+}
+
+.premiumSection .priceText {
+    font-size: 300%;
+    font-weight: 100;
+}
+
+.premiumSection .orangeText {
+    color:#e67e22;
+}
+
+.premiumSection p {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.detailsSection {
+    border-bottom: 1px solid #e8e8e8;
+
+    font-size: 80%;
+}
+
+.buttonSection {
+    box-shadow: 0 2px 2px #cac5c5;
 }
