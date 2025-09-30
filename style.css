@@ -339,3 +339,58 @@ div#features {
     color:#555;
     text-decoration: none;
 }
+
+
+
+/*quote section styling--------------------------------------*/
+#signUp {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/back-customers.jpg');
+    background-position: center;
+    background-size: cover;
+
+    color:white;
+
+    padding: 5rem 1rem;
+}
+
+#signUp h2 {
+    text-align: center;
+}
+
+#reviewHolder {
+    display: flex;
+}
+
+.review {
+    padding: 0 1rem 1rem 1rem;
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.review .author {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.review img {
+    border-radius: 100%;
+    width: 50px;
+    height: auto;
+    margin-right: 0.5rem;
+}
