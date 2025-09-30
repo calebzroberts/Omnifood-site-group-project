@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus {outline: none;}
 
 /*General styling-------------------------------------------------*/
 
@@ -461,4 +462,68 @@ blockquote:before {
     text-align: center;
 
     padding: 1rem;
+}
+
+
+
+/*form styling---------------------------------------------------*/
+#contactForm {
+    padding: 3rem
+}
+
+
+form {
+    width: 700px;
+    margin: auto;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+form label {
+    margin-right: 25px;
+    width: 30%;
+}
+
+input[type=text], input[type=email], select, textarea {
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+input[type=text], input[type=email] {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+}
+
+select, textarea {
+    padding: 0.5rem;
+}
+
+input::placeholder, option, select, textarea::placeholder {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    color: #555;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+#submitSection {
+    justify-content: center;
+}
+
+input[type=submit] {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
 }
